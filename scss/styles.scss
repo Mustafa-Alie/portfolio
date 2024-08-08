@@ -1,0 +1,57 @@
+header {
+    background: linear-gradient(to bottom right,
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
+        url('../images/intro-bg.jpg') center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header h2 {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+}
+
+header p {
+    font-family: "Lora", serif;
+}
+
+.github-icon {
+    width: 4.55rem;
+    height: 4.55rem;
+}
+
+.header-icon {
+    width: 5rem;
+    height: 5rem;
+}
+
+.my-img {
+    max-width: 15rem;
+}
+
+.services {
+    background: linear-gradient(to bottom right,
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
+        url('../images/bg.jpg') center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.footer-input {
+    border-radius: 0;
+    padding: 5px 0;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+.footer-input:focus {
+    background-color: transparent;
+}
+
+.footer-input::placeholder {
+    color: #f4f4f49d;
+}
